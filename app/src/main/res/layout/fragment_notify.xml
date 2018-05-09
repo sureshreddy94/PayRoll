@@ -1,0 +1,150 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.krypto.blocks.payroll.fragments.NotifyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:id="@+id/notify"
+       android:layout_margin="5dp"
+       android:background="@drawable/curved_layout">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Wage  11:49AM  ^"
+               android:textSize="16dp"
+               android:paddingLeft="7dp"
+               android:textColor="#1E88E5"/>
+           <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Job schedule assigned"
+           android:paddingLeft="5dp"
+           android:textSize="16dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="April 04, 8:00 AM jobsite NOHO"
+               android:paddingLeft="5dp"
+               android:textSize="16dp"/>
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/mailnotify"
+        android:layout_margin="5dp"
+        android:background="@drawable/curved_layout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:src="@drawable/ic_mail_black_24dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="suresh@gmail.com 11:49 am  ^"
+            android:textSize="16dp"
+            android:paddingLeft="7dp"
+            android:textColor="#1E88E5"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wage  :Job schedule assigned"
+            android:paddingLeft="5dp"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job category : Repair, jobsite : NOHO"
+            android:paddingLeft="5dp"
+            android:textSize="16dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/bitnotify"
+        android:layout_margin="5dp"
+        android:background="@drawable/curved_layout">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wage  11:49AM  ^"
+            android:textSize="16dp"
+            android:paddingLeft="7dp"
+            android:textColor="#1E88E5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Received Bitcoin Cash"
+            android:paddingLeft="5dp"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="April 04, 8:00 AM , $200.00"
+            android:paddingLeft="5dp"
+            android:textSize="16dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/bitmailnotify"
+        android:layout_margin="5dp"
+        android:background="@drawable/curved_layout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:src="@drawable/ic_mail_black_24dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="suresh@gmail.com 11:49 am  ^"
+                android:textSize="16dp"
+                android:paddingLeft="7dp"
+                android:textColor="#1E88E5"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BitCash Received"
+            android:paddingLeft="5dp"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="April 04, 8:00 AM jobsite NOHO"
+            android:paddingLeft="5dp"
+            android:textSize="16dp"/>
+    </LinearLayout>
+</LinearLayout>

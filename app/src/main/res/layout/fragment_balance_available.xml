@@ -1,0 +1,227 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/content_frame"
+    android:orientation="vertical"
+    tools:context="com.krypto.blocks.payroll.fragments.BalanceAvailableFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_balance"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="#607D8B"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@drawable/bit"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$450.00"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:paddingLeft="260dp"
+        android:paddingTop="38dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send money to Bank  >"
+        android:paddingLeft="150dp"
+        android:id="@+id/sendmoney_to_bank"
+        android:paddingTop="25dp"
+        android:textSize="20dp"
+        android:textColor="#fff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See Activity  >"
+        android:paddingLeft="230dp"
+        android:paddingTop="25dp"
+        android:textSize="20dp"
+        android:textColor="#fff"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        android:paddingTop="2dp"
+        android:background="#1E88E5">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:src="@drawable/bit_up"
+                android:paddingTop="10dp"
+                android:id="@+id/snd_instant"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/invoice"
+                android:id="@+id/submit_invoice"
+                android:paddingTop="35dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Money Instantly"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+            android:textColor="#fff"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit Invoice,Receive Money,today"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send to family right from your phone.pay for your, utilities"
+                android:textSize="11dp"
+                android:paddingLeft="3dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Once your money arrives it goes right to your balance"
+                android:textColor="#fff"
+                android:textSize="11dp"
+                android:paddingLeft="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pay_in_store"
+                android:id="@+id/pay_in_store"
+                android:paddingTop="10dp"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/transfer_to_card"
+                android:id="@+id/transfer_to_card"
+                android:paddingTop="37dp"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pay in Store"
+                android:textSize="16dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_weight="3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transfer to Card"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="2"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pay with your Phone at some your Favourite stores"
+                android:textSize="11dp"
+                android:paddingLeft="3dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="11dp"
+                android:paddingLeft="20dp"
+                android:text="Tranfer money to your Debitcard for instant cash"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="11dp"
+                android:layout_margin="6dp"
+                android:paddingTop="9dp"
+                android:text="Since you are using wage ,your financial status stays private and secure."/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

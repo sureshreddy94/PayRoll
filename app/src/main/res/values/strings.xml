@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PayRoll</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="toolbar_for_jobreport">Job Completion Report</string>
+    <string name="toolbar_for_identity">Identity</string>
+    <string name="toolbar_for_balnce">Balance</string>
+    <string name="toolbar_for_summary">Weekly Summary</string>
+    <string name="toolbar_for_profile">Profile</string>
+    <string name="toolbar_for_card">Select Account</string>
+    <string name="toolbar_for_credit">Account</string>
+    <string name="toolbar_for_sendamount">Send Amount</string>
+    <string name="toolbar_for_selct_account">Select Account</string>
+    <string name="title_locatin_permission">Allow PayRoll to access this Device Location</string>
+
+</resources>

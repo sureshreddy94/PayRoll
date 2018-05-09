@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       android:paddingBottom="200dp"
+        android:paddingTop="38dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/circle_chck"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You have Successfully checked into jobsite"
+            android:layout_margin="10dp"
+            android:paddingTop="9dp"
+            android:textColor="#fff"
+            android:textSize="18dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:background="@drawable/curved_layout">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:src="@drawable/ic_alarm_black_24dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start time, clock in"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:textSize="18dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="April 02,2018        Task time 3:00"
+            android:paddingLeft="10dp"
+            android:textColor="#fff"
+            android:textSize="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="30 mins later than schedule                  START"
+            android:paddingLeft="10dp"
+            android:id="@+id/startime"
+            android:textColor="#fff"
+            android:textSize="16dp"/>
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:background="@drawable/curved_layout">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:src="@drawable/ic_alarm_off_black_24dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="End time, clock out"
+            android:textColor="#fff"
+            android:layout_margin="10dp"
+            android:textSize="18dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="April 02,2018        Task time 11:00"
+            android:paddingLeft="10dp"
+            android:textColor="#fff"
+            android:textSize="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/endtime"
+            android:layout_height="wrap_content"
+            android:text="30 mins later than schedule                END"
+            android:paddingLeft="10dp"
+            android:textColor="#fff"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

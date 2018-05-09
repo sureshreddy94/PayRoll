@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/content_frame"
+    tools:context="com.krypto.blocks.payroll.fragments.SendAmountFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_sendamount"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="#607D8B"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <EditText
+            android:id="@+id/amnt"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="Enter Amount"
+            android:inputType="phone"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/send"
+            android:src="@drawable/ic_arrow_forward_black_24dp"
+            android:layout_weight="9"
+            android:paddingTop="22dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
